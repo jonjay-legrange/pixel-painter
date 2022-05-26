@@ -1,9 +1,11 @@
 export class Pixel {
-  id: number;
-  colorClass: string;
+  y: number;
+  x: number;
+  color: string;
 
-  constructor(id: number, colorClass: string) {
-    this.id = id;
-    this.colorClass = colorClass;
+  constructor(y: number, x: number, color: string) {
+    this.y = y;
+    this.x = x;
+    this.color = color;
   }
 }
